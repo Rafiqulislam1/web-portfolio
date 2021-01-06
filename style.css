@@ -63,14 +63,35 @@ section{
     text-align: center;
 }
 
-.last{
-    background-image: url("Images/image 7.png");
-    position: relative;
+
+.img-portion{
+    width: 100%;
+    height: 200px;
+    padding-top: 100px;
+    border-radius: 10px;
 }
 
-
-footer p{
-
-    text-align: center;
-    font-size: 10px;
+.half-width-1{
+    width: 5%;
+    float: left;
+    padding-left: 2%;
+    margin-left: 5%;
 }
+.half-width-2{
+    width: 70%;
+    float: left;
+    padding-left: 2%;
+    margin-left: 15%;
+}
+.decoration{
+
+    position: absolute;
+    margin-top: 200px;
+    left: 27%;
+    color: white;
+}
+ .chat{
+     position: absolute;
+     margin-top: 200px;
+     right: 25%;
+ }
